@@ -1,0 +1,17 @@
+steps:
+
+git clone https://github.com/ShoomanKhatri/PHP_CRUD_DOCKER
+
+ls
+
+cd PHP_CRUD_DOCKER/
+
+ls
+
+docker-compose up -d    //starts the containers defined in the Compose file.
+
+                       //It creates and starts containers for all the services                               specified in the Compose file, ensuring they are properly                           linked and networked.
+
+docker ps                 [ps:process status]
+
+then select the ports shown on processes.
